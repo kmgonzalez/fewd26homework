@@ -1,0 +1,222 @@
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+ 
+.outerWrapper {
+	position:relative;
+	display:block;
+	width:960px;
+	overflow:hidden;
+	margin: 0 auto;
+	background:white;
+}
+
+body {
+	background: grey;
+}
+
+
+/* Header */
+.startupMatchmaker {
+	background: black;
+	padding-top: 2px;
+	overflow:hidden;
+}
+
+.startupMatchmaker h1 {
+	color: yellow;
+	font-family: 'merriweather', serif;
+	font-size: 38px;
+	padding-left: 20px;
+}
+
+.headerNav {
+	background: black;
+	display: inline;
+	border-bottom-style: solid;
+	border-bottom-color: yellow;
+	border-bottom-width: 5px;
+}
+
+.headerNav ul {
+	float: left;
+	padding-bottom: 10px;
+	margin-left: 120px;
+}
+
+.headerNav li {
+	display: inline-block;
+	float: left;
+}
+
+.headerNav a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 10px;
+	font-size: 18px;
+	font-family: 'Source Sans Pro'
+}
+
+.headerNav ul li a strong {
+	font-size: 25px;
+	font-style: bold;
+	font-family:'Source Sans Pro';
+	
+}
+
+
+/* body */
+
+ins {
+	text-decoration: none;
+	border-bottom: 2px solid yellow;
+}
+/* Tagline */
+
+
+.brains {
+	font-family: 'merriweather', serif;
+	font-weight: bold;
+	background: lightgrey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 2px solid yellow;
+}
+
+.brains p {
+	color: black;
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.brains strike {
+	color: white;
+}
+
+.brains p  {
+	underline: yellow;
+	font-size: 25px;
+}
+
+.brains del {
+	color: grey;
+}
+/* Feature Content */
+
+
+.backgroundPhoto {
+	background: url("images/coworking.jpg");
+	background-size: cover;
+	background-position: center center;
+	padding: 30px;
+	height: 340px;
+}
+
+.mainSection {
+	background: rgba(255,255,255,0.8);
+	width: 333px;
+	text-align: left;
+	float: right;
+	padding: 25px;
+	line-height: 20px;
+}
+
+.mainSection h2 {
+	color: blue;
+	line-height: 5px;
+}
+
+.btn-createaprofile {
+	background-color: yellow;
+	text-align: center;
+	border-radius: 5px;
+	display: block;
+	width: 280px;
+	font-family: 'oswald', sans-serif;
+	font-weight: bold;
+}
+
+/* cta */
+
+
+.cta {
+	width: 320px;
+	float: left;
+	border-right: 1px solid grey;
+	padding-left: 20px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.cta h3 {
+	color: blue;
+}
+
+.btn {
+	background-color: yellow;
+	padding: 15px;
+}
+
+.btn-signupnow {
+	background: lightgrey;
+	width: 280px;
+	text-align: center;
+	border-radius: 5px;
+	font-family: 'oswald', sans-serif;
+	font-weight: bold;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
+    transition-property: box-shadow;
+    padding: 15px;
+}
+
+.btn-startyournow {
+	background: lightgrey;
+	width: 280px;
+	text-align: center;
+	border-radius: 5px;
+	font-family: 'oswald', sans-serif;
+	font-weight: bold;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
+    transition-property: box-shadow;
+    padding: 15px;
+}
+
+.btn-findadesigner {
+	background: lightgrey;
+	width: 280px;
+	text-align: center;
+	border-radius: 5px;
+	font-family: 'oswald', sans-serif;
+	font-weight: bold;
+	padding: 15px;
+}
+
+ /* Footer */
+
+.footer {
+	background: black;
+	margin-top: 10px;
+	width: 100%;
+	color: white;
+	float: left;
+}
+
+.copyright {
+	float: left;
+	padding-left: 20px;
+}

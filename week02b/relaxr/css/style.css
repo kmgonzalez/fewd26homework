@@ -1,0 +1,173 @@
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+body {
+	color: #F0EFEF;
+	line-height: 1.4;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Center the Container*/
+
+.container {
+	width: 960px;
+	margin:0 auto;
+}
+
+.logo {
+	color: #f0efef ;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.pageIntro {
+	background: url("../images/header_bg.jpg") top center;
+	background-size: cover;
+	padding: 30px 0;
+}
+.tagline {
+	font-size: 48px;
+	text-align: center;
+	color: white;
+	margin: 120px 0 90px;
+	font-weight: 600;
+}
+
+/* Extra bold, 14px. 5px border radius */
+.btn {
+	border-radius: 5px;
+	font-weight: 800;
+	padding: 12px 0;
+	width: 280px;
+	font-size: 28px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.btn-getitnow {
+	background: #F9E42E;
+	color: #033048;	
+}
+
+.btn {
+	border-radius: 5px;
+	font-weight: 800;
+	padding: 12px 0;
+	width: 280px;
+	font-size: 28px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.btn-signup {
+	background: #033048;
+	color: #F9E42E;	
+	float: center;
+}
+
+.yellowContainer {
+	background: #F9E42E;
+	height: 150px;
+	padding-top: 50px;
+}
+
+.benefits {
+	color: #606161;
+}
+
+
+.midSection {
+	background: url("../images/testimonial_bg.jpg");
+	background-size: cover;
+	
+}
+
+.quote {
+	color: white;
+	font-size: 18px;
+	padding: 80px 80px 80px 80px;
+}
+
+/* Light Italic, 18px */
+.quote p {
+	color: white;
+	color: #606161;
+	font-style: light italic;
+	font-size: 18px;
+	text-align: center;
+}
+
+/* semibold, 18px */
+
+.name p {
+	color: white;
+	font-weight: bold;
+}
+
+.midsection .container .quote p {
+	color: white;
+}
+
+.signupnow-container {
+	background: #F9E42E;
+
+}
+
+
+.pageFooter {
+	background: #121212;
+	font-weight: extra bold;
+	font-size: 24px;
+	text-align: center;
+}
+
+.pageFooter .logo {
+	font-weight: extra-bold;
+	font: 24px;
+}
+
+ul {
+	padding-right: 
+}
+
+footer {
+	height: 300px;
+	padding-top: 30px;
+}
+
+.copyright {
+	color: white;
+	font-weight: semi-bold;
+	font-size: 18px;
+}
+
+.relaxr {
+	color: yellow;
+}
+
+.fa {
+	color: white;
+	margin: 15px;
+	padding-right: 5px;
+}

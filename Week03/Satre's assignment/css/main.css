@@ -82,10 +82,6 @@ img {
 	color: gray;
 }
 
-.sartreSecondary li {
-	margin-bottom: 20px;
-}
-
 /* Header */
 
 .sartreMainNav {
@@ -153,7 +149,17 @@ img {
     color: #DDD;
     margin: -.1em .1em 0 .1em;
 }
-s
+
+/* Aside */
+
+ul li a {
+	color: red;
+	text-decoration: none;
+}
+
+.posts ul li a {
+	margin-bottom: 10px;
+}
 
 /* Footer */
 

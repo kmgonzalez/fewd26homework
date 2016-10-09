@@ -1,0 +1,42 @@
+body {
+  background: #F6F6F6;
+  font-family: Georgia,Times,"Times New Roman",serif;
+  color: #05080C;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+p {
+  font: Georgia;
+}
+
+header {
+  border-top: 5px solid #222222;
+  padding: 0 100px;
+}
+
+article {
+  border-bottom: 5px solid #222222;
+  padding: 0 100px;
+}
+
+img {
+  float: right;
+  margin-left: 20px;
+}
+
+
+th {
+  background: #222222;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  background: #eeeeee;
+  padding: 10px;
+}
+
+table { 
+  border-spacing: none;
+ }

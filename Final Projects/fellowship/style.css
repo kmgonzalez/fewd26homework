@@ -1,0 +1,100 @@
+
+.outer-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.wrapper {
+
+	background: #21618C;
+	background: linear-gradient(#21618C,#AED6F1);
+	width: 100%;
+	border-right: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.fellowship {
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	font-family: 'Lato', sans-serif;
+}
+
+
+}
+.fellowshipNav {
+	font-size: 18px;
+	display: inline block;
+
+}
+
+.fellowshipNav ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding-left: 45px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.fellowshipNav li {
+	margin: 0;
+	padding: 0;
+	display:inline-block; /*takes a stacked list and bring horizontal */
+	overflow:hidden;
+}
+
+.fellowshipNav li a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	font-size: 18px;
+	border-right: 1px solid white;
+	font-family: 'Lato', sans-serif;
+}
+
+.fellowshipNav li:last-child a{
+	border-right: none;
+}
+
+.weAre {
+	color: white;
+	text-align: left;
+	font-size: 18px;
+	font-family:'Lato', sans-serif;
+}
+
+.justS p::first-letter {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+.justS {
+	margin: 0 100px;
+}
+
+.weAre p {
+	text-indent: 30px;
+}
+
+img {
+	float: left;
+	margin: 5px;
+	width: 25%;
+	padding-right: 6px;
+}
+
+hr {
+	width: 50%;
+}
+
+.copy-right {
+	padding: 20px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
